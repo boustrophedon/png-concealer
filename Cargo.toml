@@ -1,0 +1,6 @@
+[package]
+name = "png-concealer"
+version = "0.1.0"
+authors = ["Harry Stern <hcs@meow.sh>"]
+
+[dependencies]
