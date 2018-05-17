@@ -48,7 +48,7 @@ enum PCArgs {
 }
 
 fn encode_text_chunk(data: &[u8]) -> Vec<u8> {
-    const max_length: usize = (2<<31) - 1; // as defined in png spec
+    const max_length: usize = (1<<31) - 1; // as defined in png spec
 
     // TODO could break file into multiple chunks
     if data.len() > max_length {
